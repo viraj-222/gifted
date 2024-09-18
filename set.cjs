@@ -8,10 +8,10 @@ const config = {
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
   KOYEB_API_TOKEN: process.env.KOYEB_API_TOKEN || "",
   KOYEB_APP_NAME: process.env.KOYEB_APP_NAME || "",
-  DEPLOYMENT_PLATFORM: process.env.DEPLOYMENT_PLATFORM || "",
+  DEPLOYMENT_PLATFORM: process.env.DEPLOYMENT_PLATFORM || "RAILWAY",
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS !== undefined ? process.env.AUTO_READ_STATUS === 'true' : true, 
   AUTO_STICKER: process.env.AUTO_STICKER !== undefined ? process.env.AUTO_STICKER === 'false' : false,
-  AUTO_DOWNLOAD: process.env.AUTO_DOWNLOAD !== undefined ? process.env.AUTO_DOWNLOAD === 'false' : false,
+  AUTO_DOWNLOAD: process.env.AUTO_DOWNLOAD !== undefined ? process.env.AUTO_DOWNLOAD === 'true' : true,
   AUTO_READ: process.env.AUTO_READ !== undefined ? process.env.AUTO_READ === 'true' : false,
   ANTI_DELETE: process.env.ANTI_DELETE !== undefined ? process.env.ANTI_DELETE === 'true' : false,
   AUTO_TYPING: process.env.AUTO_TYPING !== undefined ? process.env.AUTO_TYPING === 'true' : false,
@@ -27,9 +27,9 @@ const config = {
   MODE: process.env.MODE || 'public',
   PREFIX: process.env.PREFIX || '.',
   PORT: process.env.PORT || "5000", /* Where App Will Listen On */
-  OWNER_NAME: process.env.OWNER_NAME || "ɢɪғᴛᴇᴅ ᴛᴇᴄʜ",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "254762016957",
-  WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false,
+  OWNER_NAME: process.env.OWNER_NAME || "★彡[ᴠɪʜᴀɴɢᴀ.xx]彡★",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "94752799279",
+  WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'false' : false,
 };
 
 
